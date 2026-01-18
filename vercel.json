@@ -1,0 +1,11 @@
+{
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist/big-five-personality-quiz/browser",
+    "framework": "angular",
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ]
+}
